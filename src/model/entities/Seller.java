@@ -100,8 +100,8 @@ public class Seller {
 
 	@Override
 	public String toString() {
-		return "Seller [name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSalary=" + baseSalary
-				+ ", id=" + id + ", department=" + department + "]";
+		return "Name: " + name + ", Email: " + email + ", BirthDate: " + birthDate + ", baseSalary: " + baseSalary
+				+ ", id: " + id + ", " + department;
 	}
 	
 	
